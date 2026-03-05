@@ -1,19 +1,19 @@
 .stars {
   display: flex;
-}
 
-.stars__star {
-  display: block;
-  background-image: url(../images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
-  margin-left: 4px;
-}
+  &__star {
+    display: block;
+    background-image: url(../images/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 16px;
+    width: 16px;
+    margin-left: 4px;
 
-.stars .stars__star:first-child {
-  margin-left: 0;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
